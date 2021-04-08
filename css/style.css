@@ -35,7 +35,7 @@ p {
 
 .navigation-links {
   display: flex;
-  margin-top: 40px;
+  margin: 40px 0px;
   justify-content: center;
 }
 
@@ -80,6 +80,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
 
 .email-link:hover {
@@ -100,6 +101,7 @@ p {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+  margin-top: 48px;
 }
 
 .hello-line {
@@ -108,4 +110,27 @@ p {
 
 .about-title {
   padding-top: 100px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  h3 {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  .app-description {
+    font-size: 12px;
+  }
+  .launch-link {
+    padding: 10px 15px;
+    margin-top: 10px;
+  }
+  .navigation-links {
+    margin: 20px 0px;
+  }
 }
